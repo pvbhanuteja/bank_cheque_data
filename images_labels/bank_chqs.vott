@@ -1,0 +1,1421 @@
+{
+    "name": "bank_chqs",
+    "securityToken": "bank_chqs Token",
+    "sourceConnection": {
+        "name": "local_bank_chq_images",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNTg3YjIyMDlkNjliNDNiZjA0MDViMTY0NDljMGRmMmI2M2U3ZGIyNWNiYTY5NTIyYzRmNDRhMWMwMzExZmU3YjhhMjFjYzdhYmU0ZTM0MDc3N2E0NmQ1ZWQ5NzAwMmY1OTZiZmEyZjY2MTdmM2FlMmNiYjcyNTc0MjE5YjVmZDY2ZmUzMTVmODVhMGJjOTcwN2I2YjI0ZDIxOGUxNWMyNSIsIml2IjoiNGQzOWVmZmNhMzJkYWRjNzNhY2QwMTI4YzU1MzAwZGNhYmM3OWU3NzRmNDcxZmUyIn0="
+        },
+        "id": "hsp2BQM0x"
+    },
+    "targetConnection": {
+        "name": "local_bank_chq_images_labels",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDA1OGEzMzAyYWQ4MjE1YzcyNjkxZWRjNzE1NzI3ZWQ2MmY0NjJlNWM0MWJkY2U2MjkyNzk3MzM5MzBkZmVkZDYzMDExYTM4M2M1NzkyYzM4OGE3ODk3NDg2NDZjZDhkMDg2ODJjZGQ1YWUwMzQ0YzEyM2EyMDZhNDVmYWJmMzliYjg5OWQwNWJiYjc3ZWU1OGU0OGEyZThmZjdlMzRlMjk1MDJiNjYxYTMzZGI5ODYwYzZmNzNiMjVlZTY3MmU0IiwiaXYiOiJjMjNlMzdiYjMzNWM5YzFlY2U4NmE1ZTdjZmMyYTU0MjNmYjkxYTQxNDBkODU4N2YifQ=="
+        },
+        "id": "MsftU01pa"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "bank",
+            "color": "#5db300"
+        },
+        {
+            "name": "ifsc",
+            "color": "#257ffe"
+        },
+        {
+            "name": "date",
+            "color": "#e81123"
+        },
+        {
+            "name": "payee",
+            "color": "#6917aa"
+        },
+        {
+            "name": "amount_number",
+            "color": "#4894fe"
+        },
+        {
+            "name": "amount_words",
+            "color": "#015cda"
+        },
+        {
+            "name": "acc_num",
+            "color": "#6b849c"
+        },
+        {
+            "name": "sign",
+            "color": "#70c400"
+        },
+        {
+            "name": "micr",
+            "color": "#f7929a"
+        }
+    ],
+    "id": "2YY7j8n7p",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "vottJson",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNjQzZmRiZjhiNDhlNDEwZGQyMjhiMGZjOTMzZTRkODRiMTI0MjgxYmMyMzM3MjllNzVhYTg3ODEyMzIxZWNmODU2ODk0NmUyYjk1MDIyZTA4YjljMDk3ODQ3ZjI5YWI5IiwiaXYiOiIzN2IxNjhjNjQxNzU0YmY4YjYzNTk1NGNjODE5NTAzZjNhY2UxNmY5M2Q5ZDU2ODkifQ=="
+        }
+    },
+    "version": "2.1.0",
+    "lastVisitedAssetId": "2280cea1e7eb267280b653ec9c381668",
+    "assets": {
+        "42f1ea2dffc7fdc592e9e63fa9815b19": {
+            "format": "jpg",
+            "id": "42f1ea2dffc7fdc592e9e63fa9815b19",
+            "name": "Cheque083654.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque083654.jpg",
+            "size": {
+                "width": 2372,
+                "height": 1093
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5c24630758e9341a4167d482526dec92": {
+            "format": "jpg",
+            "id": "5c24630758e9341a4167d482526dec92",
+            "name": "Cheque083655.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque083655.jpg",
+            "size": {
+                "width": 2372,
+                "height": 1093
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3025ae291c2ea6badf4c1fc73f7bb6ab": {
+            "format": "jpg",
+            "id": "3025ae291c2ea6badf4c1fc73f7bb6ab",
+            "name": "Cheque083656.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque083656.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3cb1ef8f94804868021ceb6e6acdfccd": {
+            "format": "jpg",
+            "id": "3cb1ef8f94804868021ceb6e6acdfccd",
+            "name": "Cheque083657.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque083657.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "809ede49b37c19b4470b04ec80a32cf4": {
+            "format": "jpg",
+            "id": "809ede49b37c19b4470b04ec80a32cf4",
+            "name": "Cheque083658.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque083658.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "68c7a9239883e975239ea665ca86148d": {
+            "format": "jpg",
+            "id": "68c7a9239883e975239ea665ca86148d",
+            "name": "Cheque083659.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque083659.jpg",
+            "size": {
+                "width": 2372,
+                "height": 1093
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fb60271f1032e3691d50366fbf256a5e": {
+            "format": "jpg",
+            "id": "fb60271f1032e3691d50366fbf256a5e",
+            "name": "Cheque083660.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque083660.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "44b9317a9999ec94d48a4edd6c48606e": {
+            "format": "jpg",
+            "id": "44b9317a9999ec94d48a4edd6c48606e",
+            "name": "Cheque100828.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque100828.jpg",
+            "size": {
+                "width": 2387,
+                "height": 1093
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3ae03fc3beae6f3019dca21077b93c4f": {
+            "format": "jpg",
+            "id": "3ae03fc3beae6f3019dca21077b93c4f",
+            "name": "Cheque100829.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque100829.jpg",
+            "size": {
+                "width": 2387,
+                "height": 1093
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7b62924d29c52eee109a67b9a4b75d32": {
+            "format": "jpg",
+            "id": "7b62924d29c52eee109a67b9a4b75d32",
+            "name": "Cheque100830.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque100830.jpg",
+            "size": {
+                "width": 2387,
+                "height": 1093
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f149da80fd0744ca4b3094af1b2f59bc": {
+            "format": "jpg",
+            "id": "f149da80fd0744ca4b3094af1b2f59bc",
+            "name": "Cheque100831.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque100831.jpg",
+            "size": {
+                "width": 2387,
+                "height": 1093
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b21c6ad662ff2d077c2665bedd03bd33": {
+            "format": "jpg",
+            "id": "b21c6ad662ff2d077c2665bedd03bd33",
+            "name": "Cheque100832.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque100832.jpg",
+            "size": {
+                "width": 2387,
+                "height": 1093
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e632608057b5b0afe25b96c1a50d8986": {
+            "format": "jpg",
+            "id": "e632608057b5b0afe25b96c1a50d8986",
+            "name": "Cheque100833.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque100833.jpg",
+            "size": {
+                "width": 2387,
+                "height": 1093
+            },
+            "state": 2,
+            "type": 1
+        },
+        "951ec0bdfaa87955b436fc6fafe4511e": {
+            "format": "jpg",
+            "id": "951ec0bdfaa87955b436fc6fafe4511e",
+            "name": "Cheque100834.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque100834.jpg",
+            "size": {
+                "width": 2387,
+                "height": 1093
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2db63b8d68d75df9609aa996245fe67b": {
+            "format": "jpg",
+            "id": "2db63b8d68d75df9609aa996245fe67b",
+            "name": "Cheque100835.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque100835.jpg",
+            "size": {
+                "width": 2372,
+                "height": 1093
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e5b1c6b37f05a79e2d7583e17a3380b2": {
+            "format": "jpg",
+            "id": "e5b1c6b37f05a79e2d7583e17a3380b2",
+            "name": "Cheque120611.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque120611.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "853fc170f651a1d992e317251647c4a3": {
+            "format": "jpg",
+            "id": "853fc170f651a1d992e317251647c4a3",
+            "name": "Cheque120612.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque120612.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ccb340e7e0726d5676e8968bab8053d0": {
+            "format": "jpg",
+            "id": "ccb340e7e0726d5676e8968bab8053d0",
+            "name": "Cheque120613.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque120613.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1e50d413ee9521f74b782f06fb3b64ba": {
+            "format": "jpg",
+            "id": "1e50d413ee9521f74b782f06fb3b64ba",
+            "name": "Cheque120614.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque120614.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c5641897711bd2f224ec72e1dabdc271": {
+            "format": "jpg",
+            "id": "c5641897711bd2f224ec72e1dabdc271",
+            "name": "Cheque120615.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque120615.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4746a002e3dfa481698259a0738794b2": {
+            "format": "jpg",
+            "id": "4746a002e3dfa481698259a0738794b2",
+            "name": "Cheque120616.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque120616.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f7e712dbbcb6f988d3b0fd900a42f6ff": {
+            "format": "jpg",
+            "id": "f7e712dbbcb6f988d3b0fd900a42f6ff",
+            "name": "Cheque120617.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque120617.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "db9d44fe9b3fe1cebc1a87d3e293d884": {
+            "format": "jpg",
+            "id": "db9d44fe9b3fe1cebc1a87d3e293d884",
+            "name": "Cheque120618.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque120618.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dc9aa85f9c7419b38375c5ada3e6bce1": {
+            "format": "jpg",
+            "id": "dc9aa85f9c7419b38375c5ada3e6bce1",
+            "name": "Cheque120619.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque120619.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4c24de55485a7b89422e13230b36eda3": {
+            "format": "jpg",
+            "id": "4c24de55485a7b89422e13230b36eda3",
+            "name": "Cheque120620.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque120620.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "afc3d8f58c19dd20576572e36956b764": {
+            "format": "jpg",
+            "id": "afc3d8f58c19dd20576572e36956b764",
+            "name": "Cheque309061.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309061.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "48dfe5b20404f673e83dffd8c8d0f14a": {
+            "format": "jpg",
+            "id": "48dfe5b20404f673e83dffd8c8d0f14a",
+            "name": "Cheque309062.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309062.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f0f0ef3feb8d7cb81d7ef147b9431d0b": {
+            "format": "jpg",
+            "id": "f0f0ef3feb8d7cb81d7ef147b9431d0b",
+            "name": "Cheque309063.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309063.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "76ce064279b494ba99b6d75a1c80fbfd": {
+            "format": "jpg",
+            "id": "76ce064279b494ba99b6d75a1c80fbfd",
+            "name": "Cheque309066.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309066.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1a328586ae9cb00d41e6c747c6754760": {
+            "format": "jpg",
+            "id": "1a328586ae9cb00d41e6c747c6754760",
+            "name": "Cheque309067.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309067.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c0a2b787c83fded080ee497d820a7055": {
+            "format": "jpg",
+            "id": "c0a2b787c83fded080ee497d820a7055",
+            "name": "Cheque309068.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309068.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e2c3eff971b60e954ccc8187068e016a": {
+            "format": "jpg",
+            "id": "e2c3eff971b60e954ccc8187068e016a",
+            "name": "Cheque309069.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309069.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3bebf100886310818eac7f702aa82834": {
+            "format": "jpg",
+            "id": "3bebf100886310818eac7f702aa82834",
+            "name": "Cheque309070.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309070.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "05f24dad893a038d72e6ef53f6d78b5e": {
+            "format": "jpg",
+            "id": "05f24dad893a038d72e6ef53f6d78b5e",
+            "name": "Cheque309071.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309071.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fb3d00a434d257a5b90b67a81d00a829": {
+            "format": "jpg",
+            "id": "fb3d00a434d257a5b90b67a81d00a829",
+            "name": "Cheque309072.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309072.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f35e50fad4aa7950fbe25ac3b682ae19": {
+            "format": "jpg",
+            "id": "f35e50fad4aa7950fbe25ac3b682ae19",
+            "name": "Cheque309073.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309073.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e92906bd563ec6f92a7133fd71712d10": {
+            "format": "jpg",
+            "id": "e92906bd563ec6f92a7133fd71712d10",
+            "name": "Cheque309074.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309074.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "456876566e3b5a786cc278035d9fd63d": {
+            "format": "jpg",
+            "id": "456876566e3b5a786cc278035d9fd63d",
+            "name": "Cheque309075.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309075.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0e4c10066926c717173804e1959b19c1": {
+            "format": "jpg",
+            "id": "0e4c10066926c717173804e1959b19c1",
+            "name": "Cheque309076.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309076.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c55b215c50ee6e03cdfaf9b72e99241a": {
+            "format": "jpg",
+            "id": "c55b215c50ee6e03cdfaf9b72e99241a",
+            "name": "Cheque309077.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309077.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "69d8e115edf23a448b0295c90d369880": {
+            "format": "jpg",
+            "id": "69d8e115edf23a448b0295c90d369880",
+            "name": "Cheque309078.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309078.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3a9fff9686b6e54ec41aa3f898477378": {
+            "format": "jpg",
+            "id": "3a9fff9686b6e54ec41aa3f898477378",
+            "name": "Cheque309079.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309079.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f1a764e2d1dad396f8ca9fd7e4f27bd9": {
+            "format": "jpg",
+            "id": "f1a764e2d1dad396f8ca9fd7e4f27bd9",
+            "name": "Cheque309080.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309080.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0c2a26c8312c5cd53a614a551bc520dc": {
+            "format": "jpg",
+            "id": "0c2a26c8312c5cd53a614a551bc520dc",
+            "name": "Cheque309082.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309082.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "69ec517cab53d998a86e006cdc5d94bc": {
+            "format": "jpg",
+            "id": "69ec517cab53d998a86e006cdc5d94bc",
+            "name": "Cheque309083.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309083.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b08bb6d482c331039543b953f761d697": {
+            "format": "jpg",
+            "id": "b08bb6d482c331039543b953f761d697",
+            "name": "Cheque309084.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309084.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2ae242fb458a69c24e6750f602bcdef6": {
+            "format": "jpg",
+            "id": "2ae242fb458a69c24e6750f602bcdef6",
+            "name": "Cheque309086.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309086.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "af049c5f6b657d20ccd9862cd0e948ec": {
+            "format": "jpg",
+            "id": "af049c5f6b657d20ccd9862cd0e948ec",
+            "name": "Cheque309089.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309089.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4eb1b6c9dce752cd2020462ba3d06d1f": {
+            "format": "jpg",
+            "id": "4eb1b6c9dce752cd2020462ba3d06d1f",
+            "name": "Cheque309090.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309090.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "38dd247d0b4e9cc474712bb9127bf9b5": {
+            "format": "jpg",
+            "id": "38dd247d0b4e9cc474712bb9127bf9b5",
+            "name": "Cheque309091.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309091.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0c78a234eff141128ca66a6dc41c33fe": {
+            "format": "jpg",
+            "id": "0c78a234eff141128ca66a6dc41c33fe",
+            "name": "Cheque309092.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309092.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bfeb82fbd0fe64d3ae54555011bc333a": {
+            "format": "jpg",
+            "id": "bfeb82fbd0fe64d3ae54555011bc333a",
+            "name": "Cheque309093.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309093.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "214bbf574c653a8e64768bac249b7b14": {
+            "format": "jpg",
+            "id": "214bbf574c653a8e64768bac249b7b14",
+            "name": "Cheque309094.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309094.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "35cbf0ab7871a83b53c7c26cfc501292": {
+            "format": "jpg",
+            "id": "35cbf0ab7871a83b53c7c26cfc501292",
+            "name": "Cheque309095.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309095.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0d48335de55aa7f1dedcda3bb4ee88bf": {
+            "format": "jpg",
+            "id": "0d48335de55aa7f1dedcda3bb4ee88bf",
+            "name": "Cheque309096.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309096.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "256dee780bc76a1c13ddca16b8a34ef5": {
+            "format": "jpg",
+            "id": "256dee780bc76a1c13ddca16b8a34ef5",
+            "name": "Cheque309097.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309097.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bb869361ed05c4118613f3f0d31255db": {
+            "format": "jpg",
+            "id": "bb869361ed05c4118613f3f0d31255db",
+            "name": "Cheque309098.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309098.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7ac1862f1fcc59b962f2ad7a0a3343da": {
+            "format": "jpg",
+            "id": "7ac1862f1fcc59b962f2ad7a0a3343da",
+            "name": "Cheque309099.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309099.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6e444d26e6e687ac4671fe1e5054e2d0": {
+            "format": "jpg",
+            "id": "6e444d26e6e687ac4671fe1e5054e2d0",
+            "name": "Cheque309100.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309100.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cfffdee24c17db9719f404b33ff38152": {
+            "format": "jpg",
+            "id": "cfffdee24c17db9719f404b33ff38152",
+            "name": "Cheque309101.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309101.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "df8643786fbc6bcbe110f84ea62cb059": {
+            "format": "jpg",
+            "id": "df8643786fbc6bcbe110f84ea62cb059",
+            "name": "Cheque309102.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309102.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7875804c3fce39a91ae7ca0abf6270e5": {
+            "format": "jpg",
+            "id": "7875804c3fce39a91ae7ca0abf6270e5",
+            "name": "Cheque309103.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309103.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5c41319842338abb64058aa6f0a6878e": {
+            "format": "jpg",
+            "id": "5c41319842338abb64058aa6f0a6878e",
+            "name": "Cheque309104.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309104.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "63b341294702b48dce9b2b507793ef47": {
+            "format": "jpg",
+            "id": "63b341294702b48dce9b2b507793ef47",
+            "name": "Cheque309105.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309105.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b9337f7f4989948b3e7c863613622ebd": {
+            "format": "jpg",
+            "id": "b9337f7f4989948b3e7c863613622ebd",
+            "name": "Cheque309106.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309106.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "00e7c434a094be4053a20fc64ccacf37": {
+            "format": "jpg",
+            "id": "00e7c434a094be4053a20fc64ccacf37",
+            "name": "Cheque309107.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309107.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3a83680840ed6b3d294d04e8facd8181": {
+            "format": "jpg",
+            "id": "3a83680840ed6b3d294d04e8facd8181",
+            "name": "Cheque309108.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309108.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "568edb708a3eb7bd449c2134d248ce8b": {
+            "format": "jpg",
+            "id": "568edb708a3eb7bd449c2134d248ce8b",
+            "name": "Cheque309109.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309109.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e339d04e1c38cdaf18ebe555c897aa29": {
+            "format": "jpg",
+            "id": "e339d04e1c38cdaf18ebe555c897aa29",
+            "name": "Cheque309110.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309110.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0669ea3a1ae391b199404388d7eeecee": {
+            "format": "jpg",
+            "id": "0669ea3a1ae391b199404388d7eeecee",
+            "name": "Cheque309111.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309111.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dc58b06c89ac6aae72bd8c8782cd266a": {
+            "format": "jpg",
+            "id": "dc58b06c89ac6aae72bd8c8782cd266a",
+            "name": "Cheque309112.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309112.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fe71e97f5c11bf39b63c8181e83d08ca": {
+            "format": "jpg",
+            "id": "fe71e97f5c11bf39b63c8181e83d08ca",
+            "name": "Cheque309113.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309113.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f75e06717a763e55b67a5aa97ded72c8": {
+            "format": "jpg",
+            "id": "f75e06717a763e55b67a5aa97ded72c8",
+            "name": "Cheque309114.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309114.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ae6fb0c2f07483545706c2045ad7ec5c": {
+            "format": "jpg",
+            "id": "ae6fb0c2f07483545706c2045ad7ec5c",
+            "name": "Cheque309115.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309115.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cce4e76b42a174520f934479a63176d9": {
+            "format": "jpg",
+            "id": "cce4e76b42a174520f934479a63176d9",
+            "name": "Cheque309116.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309116.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7832277b5e739948a3f1881bf4cd06a7": {
+            "format": "jpg",
+            "id": "7832277b5e739948a3f1881bf4cd06a7",
+            "name": "Cheque309117.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309117.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "405bb0922d9d0ac8cc2cdf83e4a05891": {
+            "format": "jpg",
+            "id": "405bb0922d9d0ac8cc2cdf83e4a05891",
+            "name": "Cheque309118.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309118.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1100
+            },
+            "state": 2,
+            "type": 1
+        },
+        "70958f6d667f4872419c8f4ae5c3a320": {
+            "format": "jpg",
+            "id": "70958f6d667f4872419c8f4ae5c3a320",
+            "name": "Cheque309119.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309119.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c84459844dc36e2d4491cd0a19caa2c7": {
+            "format": "jpg",
+            "id": "c84459844dc36e2d4491cd0a19caa2c7",
+            "name": "Cheque309121.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309121.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1065
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4eebaf0c487b1b5a72fbd7012d6a46c2": {
+            "format": "jpg",
+            "id": "4eebaf0c487b1b5a72fbd7012d6a46c2",
+            "name": "Cheque309122.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309122.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1065
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3a2f15a3f634e1e740fb36e01b03e23a": {
+            "format": "jpg",
+            "id": "3a2f15a3f634e1e740fb36e01b03e23a",
+            "name": "Cheque309123.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309123.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1065
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3109c4925acec1c1a5632a058d894fb2": {
+            "format": "jpg",
+            "id": "3109c4925acec1c1a5632a058d894fb2",
+            "name": "Cheque309124.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309124.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1065
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5e0dbc72dab1fa78d5ad152b6988b9e6": {
+            "format": "jpg",
+            "id": "5e0dbc72dab1fa78d5ad152b6988b9e6",
+            "name": "Cheque309125.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309125.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1065
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5936a9c0f9d8b2e23e78a3f15e337cc5": {
+            "format": "jpg",
+            "id": "5936a9c0f9d8b2e23e78a3f15e337cc5",
+            "name": "Cheque309126.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309126.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1065
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d627b6e5ed90fa0590417ccecf0cecaa": {
+            "format": "jpg",
+            "id": "d627b6e5ed90fa0590417ccecf0cecaa",
+            "name": "Cheque309127.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309127.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3571cd95ac993f3ff279b4f8a4512bbc": {
+            "format": "jpg",
+            "id": "3571cd95ac993f3ff279b4f8a4512bbc",
+            "name": "Cheque309128.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309128.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "76fc183774b4c50e0fddbefb3b327f85": {
+            "format": "jpg",
+            "id": "76fc183774b4c50e0fddbefb3b327f85",
+            "name": "Cheque309129.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309129.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "89f6574631f259af14a52ad4095cf568": {
+            "format": "jpg",
+            "id": "89f6574631f259af14a52ad4095cf568",
+            "name": "Cheque309130.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309130.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "68a40f0b8db0604cbb93b9d7ba161df2": {
+            "format": "jpg",
+            "id": "68a40f0b8db0604cbb93b9d7ba161df2",
+            "name": "Cheque309131.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309131.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0e78ae91cecf9e277ce64eb4f9d83122": {
+            "format": "jpg",
+            "id": "0e78ae91cecf9e277ce64eb4f9d83122",
+            "name": "Cheque309133.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309133.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "579a5f6294dc51fff843e3c4d54eb2f0": {
+            "format": "jpg",
+            "id": "579a5f6294dc51fff843e3c4d54eb2f0",
+            "name": "Cheque309134.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309134.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c7689f1e9ef4550a5b26016b76614442": {
+            "format": "jpg",
+            "id": "c7689f1e9ef4550a5b26016b76614442",
+            "name": "Cheque309135.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309135.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3681e5f72cb46e7ac72bd74b9ab0807d": {
+            "format": "jpg",
+            "id": "3681e5f72cb46e7ac72bd74b9ab0807d",
+            "name": "Cheque309136.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309136.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d8af75020f9fadb414c5334f2b1bab3d": {
+            "format": "jpg",
+            "id": "d8af75020f9fadb414c5334f2b1bab3d",
+            "name": "Cheque309137.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309137.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "55341d45cc72c4890eb4eb237946d055": {
+            "format": "jpg",
+            "id": "55341d45cc72c4890eb4eb237946d055",
+            "name": "Cheque309138.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309138.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "092c0e1e9d6ae9b65f8463e633f378b9": {
+            "format": "jpg",
+            "id": "092c0e1e9d6ae9b65f8463e633f378b9",
+            "name": "Cheque309139.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309139.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4977ab88dd9184ea671b455920ca623c": {
+            "format": "jpg",
+            "id": "4977ab88dd9184ea671b455920ca623c",
+            "name": "Cheque309141.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309141.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5106fc4be526d1a13a16975bad1ff5da": {
+            "format": "jpg",
+            "id": "5106fc4be526d1a13a16975bad1ff5da",
+            "name": "Cheque309142.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309142.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d0d6cb9f78ac6030afdbca508e50235f": {
+            "format": "jpg",
+            "id": "d0d6cb9f78ac6030afdbca508e50235f",
+            "name": "Cheque309144.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309144.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4fcf9e1c6dfaf32dcd83dc97d09a31e4": {
+            "format": "jpg",
+            "id": "4fcf9e1c6dfaf32dcd83dc97d09a31e4",
+            "name": "Cheque309145.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309145.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6375c08774871012f9ab188e12b0c898": {
+            "format": "jpg",
+            "id": "6375c08774871012f9ab188e12b0c898",
+            "name": "Cheque309147.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309147.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2280cea1e7eb267280b653ec9c381668": {
+            "format": "jpg",
+            "id": "2280cea1e7eb267280b653ec9c381668",
+            "name": "Cheque309148.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309148.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b9474afd69e5f1244856a57dd8177ce7": {
+            "format": "jpg",
+            "id": "b9474afd69e5f1244856a57dd8177ce7",
+            "name": "Cheque309149.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309149.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f772741ff0333597b835cab634003b94": {
+            "format": "jpg",
+            "id": "f772741ff0333597b835cab634003b94",
+            "name": "Cheque309150.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309150.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "171f3fddf80fcf5bf07afbe1f635f810": {
+            "format": "jpg",
+            "id": "171f3fddf80fcf5bf07afbe1f635f810",
+            "name": "Cheque309151.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309151.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7a0d4fe552ea9444248cf8af67f54119": {
+            "format": "jpg",
+            "id": "7a0d4fe552ea9444248cf8af67f54119",
+            "name": "Cheque309153.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309153.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "39b973ac9b2e2c39d339af7bd705cdc6": {
+            "format": "jpg",
+            "id": "39b973ac9b2e2c39d339af7bd705cdc6",
+            "name": "Cheque309155.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309155.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6242f21e9c5274d7f5ed6dcf33c3422e": {
+            "format": "jpg",
+            "id": "6242f21e9c5274d7f5ed6dcf33c3422e",
+            "name": "Cheque309156.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309156.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b638149bed45a620a4d038ecf01f130e": {
+            "format": "jpg",
+            "id": "b638149bed45a620a4d038ecf01f130e",
+            "name": "Cheque309157.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309157.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f080b071f8384916f763f1c7a860b787": {
+            "format": "jpg",
+            "id": "f080b071f8384916f763f1c7a860b787",
+            "name": "Cheque309158.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309158.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5fdfeefc960fec803d4d65b1439cea8c": {
+            "format": "jpg",
+            "id": "5fdfeefc960fec803d4d65b1439cea8c",
+            "name": "Cheque309159.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309159.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "85acd48916faf4354e039bc293bb3ddd": {
+            "format": "jpg",
+            "id": "85acd48916faf4354e039bc293bb3ddd",
+            "name": "Cheque309160.jpg",
+            "path": "file:/home/bhanu/Documents/bank_cheques/bank_cheque_data/images/Cheque309160.jpg",
+            "size": {
+                "width": 2365,
+                "height": 1079
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}
