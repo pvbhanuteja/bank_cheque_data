@@ -1,0 +1,36 @@
+item {
+ id: 1
+ name: 'bank'
+}
+item {
+ id: 2
+ name: 'ifsc'
+}
+item {
+ id: 3
+ name: 'date'
+}
+item {
+ id: 4
+ name: 'payee'
+}
+item {
+ id: 5
+ name: 'amount_number'
+}
+item {
+ id: 6
+ name: 'amount_words'
+}
+item {
+ id: 7
+ name: 'acc_num'
+}
+item {
+ id: 8
+ name: 'sign'
+}
+item {
+ id: 9
+ name: 'micr'
+}

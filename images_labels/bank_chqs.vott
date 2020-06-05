@@ -5,7 +5,7 @@
         "name": "local_bank_chq_images",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNTg3YjIyMDlkNjliNDNiZjA0MDViMTY0NDljMGRmMmI2M2U3ZGIyNWNiYTY5NTIyYzRmNDRhMWMwMzExZmU3YjhhMjFjYzdhYmU0ZTM0MDc3N2E0NmQ1ZWQ5NzAwMmY1OTZiZmEyZjY2MTdmM2FlMmNiYjcyNTc0MjE5YjVmZDY2ZmUzMTVmODVhMGJjOTcwN2I2YjI0ZDIxOGUxNWMyNSIsIml2IjoiNGQzOWVmZmNhMzJkYWRjNzNhY2QwMTI4YzU1MzAwZGNhYmM3OWU3NzRmNDcxZmUyIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNTNmMWQ3YzU5ZDRhY2ZlZGEyMGMwNWM2Mjk3YzUwODFhYmM5MzEzNTFiOTVhYTZhNWQyMTZjNjI2ZWZmM2JjNzE4NGE5OTJhMWNjMGU4NTZhMzY1MzE5MThjNzkwZGQ3OGJjN2ZkNWE5OGY2NGFjOGUxZjZiZTIxMDU4OTc2YmZkODQ0OTUxZGEyNGI1ZjUxN2MxZWUwNzE4YjcxMzVhOCIsIml2IjoiYjQyYTEwZGY2ZjhhYWYyMWIyODZhNWIyM2EwMTdkM2UzMTc3ZmIxNTU2Mzk5NjVlIn0="
         },
         "id": "hsp2BQM0x"
     },
@@ -13,7 +13,7 @@
         "name": "local_bank_chq_images_labels",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDA1OGEzMzAyYWQ4MjE1YzcyNjkxZWRjNzE1NzI3ZWQ2MmY0NjJlNWM0MWJkY2U2MjkyNzk3MzM5MzBkZmVkZDYzMDExYTM4M2M1NzkyYzM4OGE3ODk3NDg2NDZjZDhkMDg2ODJjZGQ1YWUwMzQ0YzEyM2EyMDZhNDVmYWJmMzliYjg5OWQwNWJiYjc3ZWU1OGU0OGEyZThmZjdlMzRlMjk1MDJiNjYxYTMzZGI5ODYwYzZmNzNiMjVlZTY3MmU0IiwiaXYiOiJjMjNlMzdiYjMzNWM5YzFlY2U4NmE1ZTdjZmMyYTU0MjNmYjkxYTQxNDBkODU4N2YifQ=="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMzhkNTYwMWYzMzU2YmE5ZDk1ZTM5ZWUzMzMyNjRjODMwNzQ5OWYxYzVmMjBiNWIxNDVmNGI5MGIxYjRhNTg2OWY1OWQwMDliOTkxMDU4YjU5OWQ1YWExYjQ5NThhNDlhYWQ5ZGZhMTBjZTdhMmI4NTVmMjFhY2JmODA5OGRiNTIyYmY5YjdhMDRiMmZjOGI0Y2FjOGE2NmNiZDY1NjM1ODUyZGVmMTVhMDViYWY1NGQ5ODVhYzMxN2ViZDI4ODg3IiwiaXYiOiJiM2VkYjViZTQzZTRkZjcwYTUzZTI1NThhODRhZTAzMjNmNGZhMjg3Y2NkZGEzZTcifQ=="
         },
         "id": "MsftU01pa"
     },
@@ -60,18 +60,18 @@
     ],
     "id": "2YY7j8n7p",
     "activeLearningSettings": {
+        "modelPathType": "coco",
         "autoDetect": false,
-        "predictTag": true,
-        "modelPathType": "coco"
+        "predictTag": true
     },
     "exportFormat": {
-        "providerType": "vottJson",
+        "providerType": "tensorFlowRecords",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNjQzZmRiZjhiNDhlNDEwZGQyMjhiMGZjOTMzZTRkODRiMTI0MjgxYmMyMzM3MjllNzVhYTg3ODEyMzIxZWNmODU2ODk0NmUyYjk1MDIyZTA4YjljMDk3ODQ3ZjI5YWI5IiwiaXYiOiIzN2IxNjhjNjQxNzU0YmY4YjYzNTk1NGNjODE5NTAzZjNhY2UxNmY5M2Q5ZDU2ODkifQ=="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZDNkMWRjZmZiZmFkODRkNmMyY2Y1ODcxNGNjZjdmNDNlODliYzc0OGVkZWI3ZWZjYThiMGZhOTUyMDc3ODRkMiIsIml2IjoiYTM5Zjk5ZmM0Njg5NmQ0MGQ0NGZlYjYxNTU3YTlmOGFiOGYwYjVhNTM2YTcwMTM5In0="
         }
     },
     "version": "2.1.0",
-    "lastVisitedAssetId": "2280cea1e7eb267280b653ec9c381668",
+    "lastVisitedAssetId": "f080b071f8384916f763f1c7a860b787",
     "assets": {
         "42f1ea2dffc7fdc592e9e63fa9815b19": {
             "format": "jpg",
@@ -1294,7 +1294,7 @@
                 "width": 2365,
                 "height": 1079
             },
-            "state": 2,
+            "state": 1,
             "type": 1
         },
         "b9474afd69e5f1244856a57dd8177ce7": {

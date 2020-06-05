@@ -1,0 +1,125 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>Cheque309094.jpg</filename>
+    <path>bank_chqs-PascalVOC-export/Annotations/Cheque309094.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>2365</width>
+        <height>1100</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>bank</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>231.3956834532374</xmin>
+        <ymin>42.95546754250386</ymin>
+        <xmax>683.9784172661871</xmax>
+        <ymax>119.46242272024728</ymax>
+    </bndbox>
+</object><object>
+    <name>ifsc</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>262.021582733813</xmin>
+        <ymin>153.46551391035547</ymin>
+        <xmax>539.3561151079136</xmax>
+        <ymax>182.36814142194743</ymax>
+    </bndbox>
+</object><object>
+    <name>date</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>262.021582733813</xmin>
+        <ymin>153.46551391035547</ymin>
+        <xmax>539.3561151079136</xmax>
+        <ymax>182.36814142194743</ymax>
+    </bndbox>
+</object><object>
+    <name>date</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1803.5251798561153</xmin>
+        <ymin>90.55979520865533</ymin>
+        <xmax>2295.241007194245</xmax>
+        <ymax>163.66644126738794</ymax>
+    </bndbox>
+</object><object>
+    <name>payee</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>491.71582733812954</xmin>
+        <ymin>224.87200540958267</ymin>
+        <xmax>1461.5359712230215</xmax>
+        <ymax>320.0806607418856</ymax>
+    </bndbox>
+</object><object>
+    <name>amount_number</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1759.2877697841727</xmin>
+        <ymin>415.28931607418855</ymin>
+        <xmax>2235.6906474820144</xmax>
+        <ymax>512.198125965997</ymax>
+    </bndbox>
+</object><object>
+    <name>amount_words</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>88.4748201438849</xmin>
+        <ymin>328.58143353941267</ymin>
+        <xmax>2312.255395683453</xmax>
+        <ymax>518.9987442040185</ymax>
+    </bndbox>
+</object><object>
+    <name>acc_num</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>364.10791366906477</xmin>
+        <ymin>542.8009080370942</ymin>
+        <xmax>731.6187050359713</xmax>
+        <ymax>602.3063176197836</ymax>
+    </bndbox>
+</object><object>
+    <name>sign</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1963.4604316546763</xmin>
+        <ymin>702.6154366306027</ymin>
+        <xmax>2303.748201438849</xmax>
+        <ymax>818.2259466769706</ymax>
+    </bndbox>
+</object><object>
+    <name>micr</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>592.1007194244604</xmin>
+        <ymin>947.4376931993817</ymin>
+        <xmax>1743.9748201438847</xmax>
+        <ymax>1052.8472758887171</ymax>
+    </bndbox>
+</object>
+</annotation>
